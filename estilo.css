@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: Arial, sans-serif;
+line-height: 1.6;
+background-color: #905c5c;
+} 
+section:not(#home){
+    padding: 100px 20px;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+}
+
+#home{
+    /* background-color : #4a90eq2 */
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-aquarela-rosa-pintado-a-mao-detalhado_1048-17039.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(182, 115, 171);
+    height: 100vh;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+#home .h1{
+    text-align: center;
+    color: rgb(182, 115, 171);
+}
+#footer {
+    text-align: justify;
+}
+
